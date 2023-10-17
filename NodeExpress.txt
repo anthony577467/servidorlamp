@@ -1,0 +1,28 @@
+sudo apt install npm
+sudo apt install nginx
+sudo nano /etc/nginx/sites-available/myapp
+sudo ln -s /etc/nginx/sites-available/myapp /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl restart nginx
+sudo apt update
+sudo apt install nginx
+ls -l /etc/nginx/sites-enabled/
+sudo rm /etc/nginx/sites-enabled/myapp
+sudo mkdir mynodeapp
+cd mynodeapp
+npm init -y
+npm install express
+sudo touch app.js
+code app.js
+node app.js
+ps aux | grep node
+netstat -tuln
+sudo apt install iproute2
+ss -tuln
+cd mynodeapp
+sudo touch app.js
+nano app.js
+cd ~
+touch app.js
+nano app.js
+node app.js
